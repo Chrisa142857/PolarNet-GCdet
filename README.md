@@ -1,4 +1,4 @@
-# PolarNet, GC det from cytology WS
+# PolarNet, GC (Glandular Cell) detection from cytology WSI
 
 Plugin PolarNet using eight neighboring self-attention mechanism, for improving GC (glandular cell) detection from cytology WSI (Whole Slide Image). 
 
