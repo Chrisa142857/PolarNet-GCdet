@@ -2,7 +2,7 @@
 
 This code is based on public code by AttFaster[1].
 
-Model weights is available in [https://drive.google.com/drive/folders/1r2DuiVTLlEkGKB_9lWovkL3uAJu1iN0s?usp=sharing](https://drive.google.com/drive/folders/1r2DuiVTLlEkGKB_9lWovkL3uAJu1iN0s?usp=sharing).
+Model weights `.pth` are available in [https://drive.google.com/drive/folders/1r2DuiVTLlEkGKB_9lWovkL3uAJu1iN0s?usp=sharing](https://drive.google.com/drive/folders/1r2DuiVTLlEkGKB_9lWovkL3uAJu1iN0s?usp=sharing).
 
 ## How to install
 ```
