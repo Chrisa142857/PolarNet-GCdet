@@ -12,11 +12,11 @@ python setup.py --install # this line is optional in Win OS
 ## How to train
 YOLOX
 ```
-python train.py -f exps\glandular_dw_m.py
+python tools\train.py -f exps\glandular_dw_m.py
 ```
 YOLOX + PolarNet
 ```
-python train.py -f exps\glandular_dw_m_polar_1.py
+python tools\train.py -f exps\glandular_dw_m_polar_1.py
 ```
 
 ## How to test
