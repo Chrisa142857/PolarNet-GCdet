@@ -14,7 +14,7 @@ python train.py -f exps\glandular_dw_m.py
 ```
 YOLOX + PolarNet
 ```
-python train.py -f exps\glandular_dw_m_polar_v4b.py
+python train.py -f exps\glandular_dw_m_polar_1.py
 ```
 
 ## How to test
