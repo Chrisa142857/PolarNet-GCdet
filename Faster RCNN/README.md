@@ -23,8 +23,8 @@ python run.py ^
     --log_dir %LOG_DIR% ^
     --device "cuda" ^
     --train_batch_size 8 ^
-    --use_attn 0 ^
-    --use_polar 1 ^
+    --use_attn 0 ^ # use AttnFaster or not
+    --use_polar 1 ^ # use PolarNet or not
     --start_epoch 0 ^
     --resume 0 ^
     --pretrained_resnet50_coco 1 ^
