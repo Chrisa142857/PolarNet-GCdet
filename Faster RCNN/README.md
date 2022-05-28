@@ -1,6 +1,6 @@
 # Using PolarNet in Faster RCNN
 
-This code is based on public code by AttFaster[1]
+This code is based on public code by AttFaster[1].
 
 ## How to install
 ```
@@ -33,4 +33,11 @@ python run.py ^
 ```
 python test.py
 ```
-Note: Here is no `argparse` to use, please set `model_name, model_path, csv_name, device` inside `test.py`
+Note: Here is no `argparse` to use, please set `model_name`, `model_path`, `csv_name`, `device` inside `test.py`
+
+### Reference
+[1] L. Cao, J. Yang, Z. Rong, L. Li, B. Xia, C. You, G. Lou, L. Jiang,
+C. Du, H. Meng et al., “A novel attention-guided convolutional network
+for the detection of abnormal cervical cells in cervical cancer screening,”
+Medical image analysis, vol. 73, p. 102197, 2021
+
