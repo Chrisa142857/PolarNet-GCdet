@@ -28,3 +28,9 @@ python run.py ^
     --pretrained_resnet50_coco 1 ^
     SGD
 ```
+
+## How to test
+```
+python test.py
+```
+Note: Here is no `argparse` to use, please set `model_name, model_path, csv_name, device` inside `test.py`
