@@ -185,15 +185,15 @@ def parse_args(args):
                         type=int,
                         default=0)
     parser.add_argument("--polar_type",
-                        help="only update polar net",
+                        help="old version, please ignore",
                         type=str,
                         default='v4')
     parser.add_argument("--use_new_v",
-                        help="only update polar net",
+                        help="set 1 use polar attention to update feature map (QKV) | set 0 use initial feature map (QK)",
                         type=int,
                         default=0)
     parser.add_argument("--data_tail",
-                        help="csv name tail",
+                        help="temp csv name tail",
                         type=str,
                         default="")
 
