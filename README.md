@@ -1,6 +1,6 @@
 # PolarNet, GC (Glandular Cell) detection from cytology WSI
 
-Code available of a preprint paper *Cervical Glandular Cell Detection from Whole Slide Image with Out-Of-Distribution Data* (refer to [arXiv](https://arxiv.org/user/))
+Code available of a preprint paper *Cervical Glandular Cell Detection from Whole Slide Image with Out-Of-Distribution Data* (refer to [arXiv](https://arxiv.org/abs/2205.14625))
 
 Plugin PolarNet using eight neighboring self-attention mechanism, for improving GC (glandular cell) detection from cytology WSI (Whole Slide Image). 
 
