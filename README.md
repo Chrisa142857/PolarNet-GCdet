@@ -6,16 +6,19 @@ Plugin PolarNet using eight neighboring self-attention mechanism, for improving 
 
 It can be plugged into any modern deep learning-based object detection model. The code of PolarNet `polar_net.py` in this project is easiest to read about the proposed network.
 
-Graphic Abstract
-![Graphic Abstract]("polarnet.png")
+### Graphic Abstract
+![Graphic Abstract](./polarnet.png)
 
+### Project dir
 The implementation of PolarNet in different detection frameworks is identical:
 - SOTA double-stage: `Faster RCNN/` (based on the github repo [AttFaster](https://github.com/cl2227619761/AttFPN-Ovarian-Cancer/tree/master))
 - SOTA one-stage: `YOLOX/` (based on the github repo [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX))
 - Others: `mmdetection/` (based on the github repo [mmdetection](https://github.com/open-mmlab/mmdetection))
 
+### Data
 Data is available except for images:
 - COCO format annotation: `data/mmdetection`
 - CSV format annotation: `data/YOLOX` & `data/Faster RCNN`
 
+### Details
 Please see the corresponding `README.md` inside folders.
